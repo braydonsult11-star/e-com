@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+nav {
+    height: 80px;
+    display: flex;
+}
+
+img {
+    width: 100%;
+}
+
+.nav__container {
+    display: flex;
+    width: 100%;
+    padding: 0 24px;
+    justify-content: space-between;
+    max-width: 1200px;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.blue {
+    color: #38bdf8
+}
+
+.logo {
+    width: 160px;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    list-style: none;
+}
+
+.nav__link {
+    margin-left: 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #38bdf8;
+    font-weight: bold;
+    padding: 8px;
+}
+
+.nav__link:hover {
+    text-decoration: underline;
+}
+
+.nav__link--primary {
+    border: 2px solid #38bdf8;
+    border-radius: 8px;
+}
+
+.nav__link--primary:hover {
+    text-decoration: none;
+}
+
+#landing {
+    background-color: rgba(6, 162, 239, 0.1);
+}
+
+header {
+    height: calc(100vh - 80px);
+}
+
+.header__container {
+    width: 100%;
+    max-width: 720px;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
